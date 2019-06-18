@@ -45,7 +45,7 @@ Open `contract-chain/runtime/Cargo.toml` and you will see a file which lists all
 default_features = false
 git = 'https://github.com/paritytech/substrate.git'
 package = 'srml-balances'
-rev = '783ca1892892454e05e234cda5f7a2e42a54461e'
+rev = '<Copy the hash of neighboring srml dependencies in your Cargo.toml>'
 ```
 
 > Note: The `substrate-node-new` script generates a node template which is fixed to a specific commit (`rev`) of the Substrate repository. This is to prevent updates to the GitHub from breaking your working project.
